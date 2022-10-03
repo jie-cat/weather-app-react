@@ -6,7 +6,7 @@ function App() {
 
   let [location, setLocation] = useState("");
 
-  let myKey = "90ea432de4dbd1428027bbc75fa91b28"; //API Key
+  let myKey = YOUR_API_KEY; //API Key
 
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${myKey}`;
 
